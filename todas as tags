@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>: especifica o tipo de documento e a versão do HTML que está sendo usado.
+
+<html>: o elemento raiz que inclui todos os outros elementos HTML da página.
+
+<head>: contém metainformações sobre o documento, como título, codificação de caracteres e folhas de estilo ou scripts vinculados.
+
+<title>: define o título da página web, que é exibido na barra de título ou guia do navegador.
+
+<meta>: fornece metaa tag dados sobre o documento HTML, como codificação de caracteres, autor e palavras-chave.
+
+<link>: Links para recursos externos como folhas de estilo (CSS) e arquivos de ícones.
+
+<style>: Define CSS interno para estilizar o documento HTML.
+
+<script>: incorpora código JavaScript no documento HTML.
+
+<base>: define um URL base para URLs relativos no documento.
+
+<body>: contém o conteúdo visível da página web, incluindo texto, imagens, links e outros elementos.
+
+<h1>, <h2>, <h3>, <h4>, <h5>, <h6>: Defina títulos de diferentes níveis, sendo <h1>os mais altos e importantes.
+
+<p>: Representa um parágrafo de texto.
+
+<a>: cria hiperlinks para outras páginas da web ou recursos.
+
+<img>: incorpora imagens no documento.
+
+<ul>: Define uma lista não ordenada (com marcadores).
+
+<ol>: Define uma lista ordenada (numerada).
+
+<li>: representa um item de lista dentro <ul>de ou <ol>.
+
+<div>: um contêiner genérico para agrupar e estilizar conteúdo.
+
+<span>: um contêiner embutido genérico para estilizar texto.
+
+<table>: Define uma tabela para organizar dados tabulares.
+
+<tr>: representa uma linha da tabela dentro de um arquivo <table>.
+
+<th>: Define uma célula de cabeçalho da tabela.
+
+<td>: representa uma célula de dados da tabela.
+
+<form>: inclui elementos de formulário como campos de entrada, botões e caixas de seleção.
+
+<input>: representa um campo de entrada dentro de um formulário.
+
+<button>: Cria um botão clicável.
+
+<select>: Define um menu suspenso para seleção de opções.
+
+<textarea>: permite a entrada de texto em várias linhas.
+
+<label>: fornece um rótulo para um campo de entrada.
+
+<iframe>: incorpora um quadro embutido, geralmente usado para exibir conteúdo externo em uma página.
+
+<hr>: Insere uma linha horizontal ou divisor.
+
+<br>: indica uma quebra de linha no texto.
+
+<blockquote>: Define uma cotação em nível de bloco.
+
+<cite>: Indica o título de um trabalho que está sendo citado.
+
+<abbr>: Representa uma abreviatura ou sigla.
+
+<em>: enfatiza o texto, normalmente exibido em itálico.
+
+<strong>: indica texto fortemente enfatizado, geralmente exibido em negrito.
+
+<u>: sublinha o texto.
+
+<s>ou <del>: representa texto excluído, geralmente exibido tachado.
+
+<ins>: representa o texto inserido, geralmente exibido com um sublinhado.
+
+Estas são apenas algumas das tags HTML comuns e há muitas mais disponíveis para diversos fins. HTML é uma linguagem versátil para estruturar conteúdo e criar páginas web. A escolha das tags depende dos requisitos específicos da sua página web.

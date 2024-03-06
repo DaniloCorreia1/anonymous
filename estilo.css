@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+}
+head{
+    padding: 0px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+.containerhead{
+    display: flex;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+
+}
+.logo{
+    display: flex;
+    flex: 0.9;
+    align-items: center;
+    width: 300px;
+}
+.cabecalho {
+    display: flex;
+    flex: 1;
+    align-items: center;
+
+
+}
+
+h1{
+    font-family: 'Edu TAS Beginner', cursive;
+    text-align: 50%;
+    text-shadow: 10px 10px 10px rgb(64, 93, 94);
+    font-style: italic;
+    color: rgb(75, 75, 75);
+}
+nav{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(64, 66, 66);
+}
+.opcao{
+    background-color: rgb(64, 66, 66);
+    position: relative;
+    left: -8px;
+    width: 100%;
+    height: 40px;
+
+
+    
+}
+.link { 
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+ 
+
+}
+.link:hover { 
+    color: rgb(231, 235, 235);
+    text-decoration: none;
+}
+
+
+.meu-botao {
+    background-color: #545658; /* Cor de fundo azul */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Cursor de mão ao passar o mouse */
+    position: relative;
+    left: 10px;
+    
+    
+}
+.meu-botao1 {
+    background-color: #545658; /* Cor de fundo azul */
+    color: rgb(245, 242, 242); /* Cor do texto branca */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Cursor de mão ao passar o mouse */
+    position: relative;
+    left: 15px;
+ 
+
+}
+.meu-botao2 {
+    background-color: #545658; /* Cor de fundo azul */
+    color:black; /* Cor do texto branca */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Cursor de mão ao passar o mouse */
+    position: relative;
+    left: 20px;
+    
+}
+.meu-botao3 {
+    background-color: #545658; /* Cor de fundo azul */
+    color: rgb(245, 242, 242); /* Cor do texto branca */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Cursor de mão ao passar o mouse */
+    position: relative;
+    left: 25px;
+ 
+
+}
+body{
+   background-color:black;
+   margin: 0;
+  
+}
+
+.selo {
+    position: absolute;
+    top: 1000px;
+    left: 100px;
+    background-color: white;
+    width: 70px;
+    height: 300px;
+    margin: auto;
+    transform: skew(60deg);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.514);
+    text-align: center;
+    line-height: 300px; /* Igual à altura do contêiner */
+    font-family: 'Arial', sans-serif; /* Escolha uma fonte mais comum e nítida */
+    font-size: 14px; /* Escolha um tamanho de fonte adequado */
+    font-weight: bold; /* Se desejar uma fonte mais negrita */
+    color: #333; /* Escolha uma cor de texto adequada */
+    
+}
+
+.selo p {
+    transform: rotate(90deg); /* Rotaciona o texto -90 graus */
+    white-space: nowrap; /* Evita que o texto quebre em várias linhas */
+}
+
+
+
+.anonimous img{
+
+    position: absolute;
+    height: 900px;
+    left: 700px;
+    transform: rotateY(180deg);
+   
+}
+@keyframes anonimousini {
+    100% { left: 1202px; }
+}
+.anonimousinicio img{
+    position: absolute;
+    height: 900px;
+    left: 20px; /* Posição inicial da imagem */
+    animation-name: anonimousini;
+    animation-duration: 3s;
+    animation-fill-mode: forwards; /* Garante que a imagem permaneça na posição final */
+}
+
+.frase0, .frase1, .frase2, .frase3, .frase4, .frase5, .frase6, .frase7, .frase8, .frase9{
+    color : rgb(156, 156, 156);
+    position: absolute;
+    max-width: 250px;
+    
+}
+.frase0{
+    top: 300px;
+    left: 30px;
+}
+.frase1 {
+    top: 400px;
+    left: 30px;
+}
+.frase2 {
+    top: 600px;
+    left: 30px;
+}
+.frase3 {
+    top: 450px;
+    left: 400px;
+}
+.frase4 {
+    top: 600px;
+    left: 400px;
+}
+
+.frase5 {
+    top: 300px;
+    left: 400px;
+}
+.frase6 {
+    top: 600px;
+    left: 800px;
+}
+.frase7 {
+    top: 300px;
+    left: 800px;
+}
+.frase8 {
+    top: 400px;
+    left: 800px;
+}
+.frase9 {
+    top: 740px;
+    left: 800px;
+}
+.botaop {
+    position: absolute;
+    top: 167px;
+    left: 210px;
+    background-color: rgb(3, 3, 3);
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none; 
+    color: rgb(255, 255, 255); 
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.514);
+}
+.botaop:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+
+table {
+
+    position: absolute;
+    top : 298px;
+    width: 700px;
+    border:2px solid rgba(243, 243, 243, 0.952);
+    background-color: rgba(255, 253, 253, 0.747);
+    
+}
+.tabela2 {
+
+    position: absolute;
+    top : 324px;
+    width: 700px;
+    border:1px solid rgba(253, 253, 253, 0.952);
+    background-color: rgba(0, 0, 0, 0.582);
+    
+}
+tr{
+    color: white;
+    text-align: center;
+  
+}
+td{
+
+    border:1px solid rgba(61, 63, 63, 0.952);
+    
+}
+
+.tabela2 tr:nth-child(odd) {
+    background-color: rgb(94, 92, 92); /* Por exemplo, define a cor de fundo para vermelho */
+    color: #000000; /* Define a cor do texto para branco */
+}
+
+.cad{
+    position: absolute;
+    top: 250px;
+    color: white;
+    left: 300px;
+}
+.cadastro{
+    color :aliceblue;
+    position: absolute;
+    top: 350px;
+    left: 80px;
+    font-size: 20px;
+    font-family: 'Edu TAS Beginner', cursive;
+  
+}
+input{
+    margin-left: 200px;
+    position: absolute;
+    left: 20px;
+}
+input[type="submit"][value="Cadastrar"]{
+    background-color: #070707;
+    color: rgb(248, 248, 248);
+    border: 2px solid #e4e5e6; /* Borda sólida azul */
+    border-radius: 15px; /* Cantos arredondados */
+    padding: 10px 20px;
+    cursor: pointer;
+    top: 400px;
+
+}
+footer {
+    background-color: #4b4d4e;
+    max-width: 100%;
+    height: 100px;
+    position: relative;
+    top: 900px;
+    left: -10px;
+   
+}
+.pesquisa{   
+    position: absolute; 
+    margin-top: 10px;
+    margin-left: -200px;
+      
+}
+audio {
+    background-color: #08010100; /* Cor de fundo do player de áudio */
+    color: #3f3d3d; /* Cor do texto do player de áudio */
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  /* Estilizar os controles de áudio (botões play, pause, volume, etc.) */
+  audio::-webkit-media-controls-panel {
+    background-color: #333; /* Cor de fundo dos controles para navegadores WebKit (Chrome, Safari) */
+  }
+
+  audio::-webkit-media-controls-volume-slider {
+    background-color: #575454; /* Cor de fundo do controle de volume para navegadores WebKit (Chrome, Safari) */
+  }
+.whatsappicon{
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 90%;
+    
+  
+}
+address{
+    position: relative;
+    margin-left: 20px;
+    top: 10px;
+    
+}
+
+.anon img{
+    margin-left: 300px;
+    height: 500px;
+    width: 500px;
+    box-shadow: 10px 10px 10px rgb(63, 63, 63);
+    object-fit: cover;
+    transition: 0.3s linear;
+}
+
+.anon h1{
+    margin-left: 380px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+.anon dl{
+    color: white;
+    margin-left: 200px;
+    text-align:justify
+}
+dd{
+    margin-left: 00px;
+}
+.rodape{
+    margin-top: -850px;
+}
+
+.cadastroinicial{
+    display: flex;
+    background-color: rgb(77, 78, 78);
+    width: 600px;
+    height: 600px;
+    margin: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #e4e5e6;
+    border: solid 5px rgb(5, 5, 5);
+    position: absolute;
+    left: -10px;
+
+}
